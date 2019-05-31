@@ -11,6 +11,10 @@ public class Dollars extends PiggyBank{
         this.dollars = this.dollars + 1;
     }
 
+    public double getValue(){
+        return dollars * 1.00;
+    }
+
     public String getName(){
         String plural = dollars > 1 ? "s":"";
         return this.dollars + " Dollar" + plural;

@@ -11,6 +11,10 @@ public class Quarters extends PiggyBank{
         this.quarters = this.quarters + 1;
     }
 
+    public double getValue(){
+        return quarters * 0.25;
+    }
+
     public String getName(){
         String plural = quarters > 1 ? "s":"";
         return this.quarters + " Quarter" + plural;
