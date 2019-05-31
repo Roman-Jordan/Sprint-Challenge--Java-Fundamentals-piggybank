@@ -12,7 +12,8 @@ public class Nickels extends PiggyBank{
     }
 
     public String getName(){
-        return this.nickels + " Nickels";
+        String plural = nickels > 1 ? "s":"";
+        return this.nickels + " Nickel" + plural;
     }
 
 }

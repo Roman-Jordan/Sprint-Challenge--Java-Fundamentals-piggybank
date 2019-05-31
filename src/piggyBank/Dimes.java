@@ -12,7 +12,8 @@ public class Dimes extends PiggyBank{
     }
 
     public String getName(){
-        return this.dimes + " Dimes";
+        String plural = dimes > 1 ? "s":"";
+        return this.dimes + " Dime" + plural;
     }
 
 }
