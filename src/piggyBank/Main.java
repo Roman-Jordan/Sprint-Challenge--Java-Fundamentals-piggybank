@@ -19,8 +19,8 @@ public class Main{
         piggyBank.add(new Dollars());
         piggyBank.add(new Penny(10));
         
+        //Sum of all piggyBank.getValue();
         double money = 0;
-
         for(PiggyBank v:piggyBank){
             money+=v.getValue();
         }
